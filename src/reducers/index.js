@@ -6,7 +6,7 @@ import event from './event'
 const persistConfig = {
   key: 'root',
   storage,
-  whitelist: ['event1'],
+  whitelist: ['event'],
 };
 
 export default persistReducer(
